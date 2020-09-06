@@ -1,0 +1,82 @@
+/*SASS*/
+
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    transition: background-color 1s linear;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+#white-container {
+    background-color: whitesmoke;
+    min-width: 550px;
+    max-width: 550px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 25px 40px 40px 40px;
+}   
+
+    #text{
+        font-size: 37px;
+        text-align: center;
+        margin: 0px 0px 0px auto;
+        padding: none;
+        font-family: 'Cormorant Upright', serif;
+        transition: color 0.5s linear;
+    }
+
+    #author{
+        color: crimson;
+        font-size: 17px;
+        text-align: right;
+        font-family: 'Noto Serif JP', serif;
+        transition: color 0.5s linear;
+    }
+
+    #button-div{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+    }
+
+        button{
+            background-color: crimson;
+            color:whitesmoke;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            transition: background-color 1s linear;
+        }
+
+        #button1, #button2{
+            background-color: crimson;
+            font-size: 20px;
+            width:40px;
+            height:40px;
+            margin-right: 5px;
+        }
+
+        #new-quote{
+            background-color: crimson;
+            height:40px;
+            font-size: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    #by {
+        margin-top: 10px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+
